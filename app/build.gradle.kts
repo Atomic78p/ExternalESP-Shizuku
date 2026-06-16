@@ -1,14 +1,14 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("com.android.application") version "8.4.0" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.24" apply false
 }
 
 android {
-    namespace = "com.example.externalesp"
+    namespace = "com.van4u.external"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.externalesp"
+        applicationId = "com.van4u.external"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
